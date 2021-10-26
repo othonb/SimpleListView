@@ -1,4 +1,4 @@
-package br.com.othonbatista.listviewsimples;
+package br.com.othonbatista.listviewsimples.Adapters;
 
 import android.content.Context;
 import android.widget.ArrayAdapter;

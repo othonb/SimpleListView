@@ -1,16 +1,14 @@
 package br.com.othonbatista.listviewsimples;
 
 import android.app.Activity;
-import android.database.DataSetObserver;
 import android.os.Bundle;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.Adapter;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import java.util.ArrayList;
+
+import br.com.othonbatista.listviewsimples.Adapters.StableArrayAdapter;
 
 public class MainActivity extends Activity {
 
