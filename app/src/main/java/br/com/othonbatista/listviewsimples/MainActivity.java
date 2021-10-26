@@ -25,11 +25,31 @@ public class MainActivity extends Activity {
         final ListView listView = (ListView) findViewById(R.id.listView);
 
         // Cria um Array (vetor) com palavras em inglês
-        String[] palavras = new String[] { "Android", "iPhone", "WindowsMobile",
-                "Blackberry", "WebOS", "Ubuntu", "Windows7", "Max OS X",
-                "Linux", "OS/2", "Ubuntu", "Windows7", "Max OS X", "Linux",
-                "OS/2", "Ubuntu", "Windows7", "Mac OS X", "Linux", "OS/2",
-                "Android", "iPhone", "WindowsMobile" };
+        String[] palavras = new String[] {
+                "André",
+                "Antônio",
+                "Ana Carla",
+                "Beatriz",
+                "Carlos",
+                "Eduarda",
+                "Eliane",
+                "Francisco",
+                "Horácio",
+                "Irene",
+                "Natanael",
+                "Osmundo",
+                "Rebeca",
+                "Sara",
+                "Thales",
+                "Tábata",
+                "Thomas",
+                "Viviane",
+                "Victor",
+                "Wanderley",
+                "York",
+                "Xerxes",
+                "Zoroastro"
+        };
 
         // Cria um ArrayList
         final ArrayList<String> listaPalavras = new ArrayList<String>();
